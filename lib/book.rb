@@ -38,6 +38,9 @@ class Book
   
 end 
 
-book =Book.new("Some Title")
+
+#output ability after OOP code
+book = Book.new("Some Title")
 book.turn_page
+# => "Flipping the page...wow, you read fast!"
 
